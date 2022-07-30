@@ -423,28 +423,30 @@
           <form>
             <div class="modal-field">
               <div class="modal-item">
-                <lable for="name">Имя</lable>
-                <input type="text" name="name" id="name" />
+                <lable class="modal-name" for="name">Имя</lable>
+                <input class="form-input" type="text" name="name" id="name" />
               </div>
               <div class="modal-item">
-                <label for="tel">Телефон</label>
-                <input type="tel" name="tel" id="tel" />
+                <label class="modal-name" for="tel">Телефон</label>
+                <input class="form-input" type="tel" name="tel" id="tel" />
               </div>
               <div class="modal-item">
-                <label for="mail">Почта</label>
-                <input type="email" name="mail" id="mail" />
+                <label class="modal-name" for="mail">Почта</label>
+                <input class="form-input" type="email" name="mail" id="mail" />
               </div>
               <div class="modal-item">
-                <lable for="comment">Комментарий</lable>
-                <textarea name="comment" id="comment" placeholder="Введите текст"> </textarea>
-              </div>
-              <div>
-                <input type="checkbox" name="policy" id="policy" />
-                <lable for="policy">Погоджуюся з розсилкою та приймаю Умови договору</lable>
+                <lable class="modal-name" for="comment">Комментарий</lable>
+                <textarea name="comment" id="comment" placeholder="Введите текст"></textarea>
               </div>
             </div>
-
-            <button type="submit">Отправить</button>
+            <div class="checkbox-field">
+              <input type="checkbox" name="policy" id="policy" />
+              <lable class="modal-policy" for="policy"
+                >Погоджуюся з розсилкою та приймаю
+                <span class="modal-span">Умови договору</span></lable
+              >
+            </div>
+            <button class="modal-btn" type="submit">Отправить</button>
           </form>
         </div>
         <button class="btn-close" data-modal-close>
