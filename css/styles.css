@@ -351,6 +351,9 @@ body {
 }
 
 .modal-item input {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 42px;
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -358,6 +361,7 @@ body {
 }
 
 .form-input:focus {
+  color: #2196f3;
   border: 1px solid #2196f3;
 }
 
@@ -371,6 +375,8 @@ body {
   border-radius: 4px;
 }
 
+/*CheckBox*/
+
 .checkbox-field {
   display: flex;
   align-items: center;
@@ -378,6 +384,18 @@ body {
   margin-left: 52px;
   margin-right: 51px;
 }
+
+.checkbox {
+  appearance: none;
+  width: 16px;
+  height: 15px;
+  border-radius: 2px;
+  border: 2px solid #212121;
+}
+
+/* .checkbox:hover {
+  background-image: url(../images/icons.svg#icon-check);
+} */
 
 .modal-policy {
   margin-left: 8px;
@@ -394,7 +412,6 @@ body {
   margin-top: 30px;
   margin-right: 164px;
   margin-left: 164px;
-  margin-bottom: 40px;
 
   font-size: 16px;
   line-height: 1.9;
@@ -423,6 +440,16 @@ body {
   text-underline-offset: 1px;
   /* text-decoration-thickness: 1px; */
   color: #2196f3;
+}
+
+.form-input {
+  position: relative;
+}
+
+.modal-icon {
+  position: absolute;
+  /* top: 15px;
+  left: 12px; */
 }
 
 /*Section Benefits*/
