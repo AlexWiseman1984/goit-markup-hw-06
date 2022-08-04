@@ -385,16 +385,6 @@ body {
 
 /*CheckBox*/
 
-.checkbox-field {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.checkbox {
-  appearance: none;
-}
-
 .checkbox-icon {
   display: inline-block;
   width: 16px;
@@ -410,25 +400,24 @@ body {
   background-origin: border-box;
 }
 
-/* .checkbox {
+.checkbox {
   appearance: none;
-  width: 16px;
+  /* width: 16px;
   height: 15px;
   border-radius: 2px;
-  border: 2px solid #212121;
-} */
-
-/* .checkbox:hover {
-  background-image: url(../images/icons.svg#icon-check);
-} */
+  border: 2px solid #212121; */
+}
 
 .modal-policy {
-  margin-left: 8px;
+  display: inline-block;
+  margin: 0;
 
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+
+  border: 1px solid #212121;
 }
 
 .modal-btn {
