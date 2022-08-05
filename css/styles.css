@@ -385,8 +385,14 @@ body {
 
 /*CheckBox*/
 
+.checkbox {
+  /* appearance: none;
+  position: absolute; */
+}
+
 .checkbox-icon {
   display: inline-block;
+  margin-right: 7px;
   width: 16px;
   height: 15px;
   border-radius: 2px;
@@ -395,29 +401,21 @@ body {
 
 .checkbox:checked + .checkbox-icon {
   border-color: transparent;
-  background-image: url(../images/icons.svg#icon-check);
+  background-color: #2196f3;
+  background-image: url(../images/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
 }
 
-.checkbox {
-  appearance: none;
-  /* width: 16px;
-  height: 15px;
-  border-radius: 2px;
-  border: 2px solid #212121; */
-}
-
 .modal-policy {
-  display: inline-block;
-  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
-
-  border: 1px solid #212121;
 }
 
 .modal-btn {
@@ -893,13 +891,7 @@ body {
 .page-footer .container {
   display: flex;
   align-items: baseline;
-}
-
-.address-wrapper {
-  margin-right: 70px;
-}
-
-.page-footer .container {
+  justify-content: space-between;
   padding-bottom: 0;
 }
 
@@ -947,12 +939,7 @@ body {
   color: var(--primary-white-color);
 }
 
-.footer-links {
-  margin-right: 93px;
-}
-
 .footer-field {
-  /* width: 570px; */
   height: 86px;
 }
 
@@ -996,4 +983,11 @@ body {
 .footer-icon {
   margin-left: 10px;
   fill: #ffffff;
+}
+
+.footer-mail input {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
