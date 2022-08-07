@@ -386,8 +386,8 @@ body {
 /*CheckBox*/
 
 .checkbox {
-  /* appearance: none;
-  position: absolute; */
+  appearance: none;
+  position: absolute;
 }
 
 .checkbox-icon {
@@ -410,12 +410,17 @@ body {
 .modal-policy {
   display: flex;
   align-items: center;
-  justify-content: center;
 
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.form-policy-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-btn {

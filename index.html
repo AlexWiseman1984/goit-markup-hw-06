@@ -51,8 +51,9 @@
           <li class="nav-item">
             <a href="tel:+380991111111" class="link">
               <svg class="btn-icon" width="10" height="16">
-                <use href="./images/icons.svg#smartphone"></use></svg
-              >+380961111111
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>
+              +380961111111
             </a>
           </li>
         </ul>
@@ -455,11 +456,14 @@
                 ></textarea>
               </div>
             </div>
-            <lable class="modal-policy">
-              <input class="checkbox" type="checkbox" name="policy" value="policy" />
-              <span class="checkbox-icon"></span>
-              Погоджуюся з розсилкою та приймаю<a class="modal-link">Умови договору</a>
-            </lable>
+            <div class="form-policy-wrapper">
+              <label class="modal-policy">
+                <input type="checkbox" name="check" class="checkbox" />
+                <span class="checkbox-icon"></span>
+                Соглашаюсь с рассылкой и принимаю
+              </label>
+              <a href="#" class="modal-link">Условия договора</a>
+            </div>
             <button class="modal-btn" type="submit">Отправить</button>
           </form>
         </div>
